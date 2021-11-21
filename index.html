@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>JS Project by Dwivedi</title>
+    <script>
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+    <link href="BSlinks.html" rel="import" />
+    <link rel="icon" href="images/logo.jpg" />
+</head>
+
+<body onload="showTime()">
+    <!--header section start-->
+    <div style="text-align:right;margin:20px">TIME :
+        <span id="sptime">Time :</span>
+    </div>
+    <h1 id="hedding">WELCOME..<br/><u>Best Weekly Thought By Greate Person</u></h1>
+
+    <!--<hr style="border:1px solid darkgoldenrod;">-->
+    <!--header section End-->
+
+    <div class=row style="height: 400px;">
+        <div id="dayList" class="col-sm-2"><span id="opthead"><p>Seven Day of the Week Thought </p></span>
+            <span id="days"><select id="ddlday" onchange="changeimg(this.value)"></select></span>
+        </div>
+        <div id="workPlace" class="col-sm-7" title="PLEASE SELECT YOUR FAVOURITE WRITER.."><img id="imgslider" src='images/pree.jpg' height="100%" width="100%" /></div>
+        <div id="autherList" class="col-sm-3"><span id="opthead"><p>Please Select Your favourite Personality </p></span>
+            <ul>
+                <a>
+                    <li id="MG" onclick="addday(this.innerText)">MAHATMA GANDHI</li>
+                </a>
+                <a>
+                    <li id="" onclick="addday(this.innerText)"> SWAMI VIVEKANANDA</li>
+                </a>
+                <a>
+                    <li id="" onclick="addday(this.innerText)">A.P.J ABDUL KALAM</li>
+                </a>
+                <a>
+                    <li id="" onclick="addday(this.innerText)">THOMAS A. ADISON</li>
+                </a>
+                <a>
+                    <li id="" onclick="addday(this.innerText)">EINSTEIN </a>
+                </li>
+                </a>
+            </ul>
+        </div>
+
+    </div>
+
+
+
+
+
+    <!--Fotter Section Start-->
+    <hr style="border: 1px solid rgb(173, 168, 168)">
+    <div class="marqu" class="row">
+        <div id="marqudata" class="col-sm-10">
+            <marquee><img src="images/ksslogo.png" />_Suvichar-Everyday-New-Power
+            </marquee>
+        </div>
+        <div id="devlopper"><span><a href="https://completejavaschool.blogspot.com/">Devloped by-P.k Dwivedi</a></span></div>
+    </div>
+    <!--Fotter Section End -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,156 @@
+body {
+    background: url(../images/wal.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#sptime {
+    color: red;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: 2px solid rgb(247, 247, 70);
+    opacity: 0.6;
+}
+
+
+/* header section start */
+
+#hedding {
+    text-align: center;
+    text-decoration: overline;
+    text-decoration-color: lightgreen;
+    color: rgb(25, 186, 250);
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 4px white;
+    text-decoration: none;
+    border-color: lightyellow;
+}
+
+
+/* header section End */
+
+#dayList {
+    text-align: center;
+}
+
+#ddlday {
+    padding: 5px;
+    color: hotpink;
+    border: 2px solid blue;
+    text-align: center;
+    background: khaki;
+    font-size: 18px;
+    font-weight: bolder;
+    text-shadow: 1px 2px blue;
+}
+
+#ddlday option {
+    margin: 2px;
+    border: 1px solid aqua;
+}
+
+#opthead p {
+    font-size: 18px;
+    padding: 2px 1px 1px 4px;
+    border-radius: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    border: 2px solid rgb(245, 255, 109);
+    background: rgb(240, 217, 116);
+    color: rgb(43, 47, 68);
+}
+
+#workPlace {
+    height: 95%;
+    width: 200px;
+    float: left;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 15px;
+    border: 6px solid silver;
+    padding: 0px;
+}
+
+#imgslider {
+    border: 1px solid gray
+}
+
+title {
+    color: blue;
+    background: green;
+    text-shadow: 2px 4 px aqua;
+}
+
+#autherList {
+    height: 100%;
+    width: 100px;
+}
+
+#autherList ul {
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+}
+
+#autherList ul li {
+    background-color: rgb(227, 241, 100);
+    margin: 4px;
+    padding: 4px 12px;
+    font-weight: bolder;
+    text-shadow: 1px 1px aqua;
+    border: 4px solid whitesmoke;
+    border-radius: 10px;
+}
+
+#autherList ul li:hover {
+    background-color: whitesmoke;
+    border: 1px dotted green;
+}
+
+#autherList ul li.a {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/* fotter section Start*/
+
+.marqu {
+    height: 50px;
+}
+
+#marqudata {
+    height: 50px;
+    float: left;
+    font-size: 18px;
+    color: rgb(16, 247, 227);
+    text-shadow: 1px 2px rgb(150, 47, 247);
+    background-color: rgb(255, 231, 192);
+}
+
+#marqudata img {
+    height: 40px;
+    border-radius: 40px;
+}
+
+#devloper {
+    background: rgb(157, 157, 250);
+}
+
+#devlopper span {
+    text-align: center;
+    margin: 10px;
+    background: rgb(59, 243, 197);
+}
+
+#devlopper span a {
+    font-size: 18px;
+    color: whitesmoke;
+    text-shadow: 1px 2px sandybrown;
+}
+
+
+/* fotter section End*/
